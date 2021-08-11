@@ -9,23 +9,35 @@
 /* Begin PBXBuildFile section */
 		ABC2A84526C2B597008D10B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC2A84426C2B597008D10B9 /* AppDelegate.swift */; };
 		ABC2A84726C2B597008D10B9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC2A84626C2B597008D10B9 /* SceneDelegate.swift */; };
-		ABC2A84926C2B597008D10B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC2A84826C2B597008D10B9 /* ViewController.swift */; };
 		ABC2A84C26C2B597008D10B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABC2A84A26C2B597008D10B9 /* Main.storyboard */; };
 		ABC2A84F26C2B597008D10B9 /* DO_MORE.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ABC2A84D26C2B597008D10B9 /* DO_MORE.xcdatamodeld */; };
 		ABC2A85126C2B598008D10B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABC2A85026C2B598008D10B9 /* Assets.xcassets */; };
 		ABC2A85426C2B598008D10B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABC2A85226C2B598008D10B9 /* LaunchScreen.storyboard */; };
+		ABC2A85F26C2B647008D10B9 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC2A85D26C2B647008D10B9 /* HomeViewController.swift */; };
+		ABC2A86026C2B647008D10B9 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABC2A85E26C2B647008D10B9 /* HomeViewController.xib */; };
+		ABC2A86326C2B8C4008D10B9 /* scrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC2A86126C2B8C4008D10B9 /* scrollViewController.swift */; };
+		ABC2A86426C2B8C4008D10B9 /* scrollViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABC2A86226C2B8C4008D10B9 /* scrollViewController.xib */; };
+		ABC2A86726C2BCC3008D10B9 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC2A86626C2BCC3008D10B9 /* Item.swift */; };
+		ABC2A86B26C2BD4D008D10B9 /* ItemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC2A86926C2BD4D008D10B9 /* ItemCollectionViewCell.swift */; };
+		ABC2A86C26C2BD4D008D10B9 /* ItemCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABC2A86A26C2BD4D008D10B9 /* ItemCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		ABC2A84126C2B597008D10B9 /* DO MORE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DO MORE.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABC2A84426C2B597008D10B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ABC2A84626C2B597008D10B9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		ABC2A84826C2B597008D10B9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		ABC2A84B26C2B597008D10B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ABC2A84E26C2B597008D10B9 /* DO_MORE.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DO_MORE.xcdatamodel; sourceTree = "<group>"; };
 		ABC2A85026C2B598008D10B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ABC2A85326C2B598008D10B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ABC2A85526C2B598008D10B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABC2A85D26C2B647008D10B9 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		ABC2A85E26C2B647008D10B9 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		ABC2A86126C2B8C4008D10B9 /* scrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scrollViewController.swift; sourceTree = "<group>"; };
+		ABC2A86226C2B8C4008D10B9 /* scrollViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = scrollViewController.xib; sourceTree = "<group>"; };
+		ABC2A86626C2BCC3008D10B9 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		ABC2A86926C2BD4D008D10B9 /* ItemCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCollectionViewCell.swift; sourceTree = "<group>"; };
+		ABC2A86A26C2BD4D008D10B9 /* ItemCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ItemCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +70,54 @@
 		ABC2A84326C2B597008D10B9 /* DO MORE */ = {
 			isa = PBXGroup;
 			children = (
+				ABC2A86826C2BD27008D10B9 /* cell */,
+				ABC2A86526C2BC96008D10B9 /* models */,
+				ABC2A85C26C2B5FD008D10B9 /* controllers */,
 				ABC2A84426C2B597008D10B9 /* AppDelegate.swift */,
 				ABC2A84626C2B597008D10B9 /* SceneDelegate.swift */,
-				ABC2A84826C2B597008D10B9 /* ViewController.swift */,
-				ABC2A84A26C2B597008D10B9 /* Main.storyboard */,
-				ABC2A85026C2B598008D10B9 /* Assets.xcassets */,
-				ABC2A85226C2B598008D10B9 /* LaunchScreen.storyboard */,
 				ABC2A85526C2B598008D10B9 /* Info.plist */,
-				ABC2A84D26C2B597008D10B9 /* DO_MORE.xcdatamodeld */,
+				ABC2A85B26C2B5B5008D10B9 /* apputils */,
 			);
 			path = "DO MORE";
+			sourceTree = "<group>";
+		};
+		ABC2A85B26C2B5B5008D10B9 /* apputils */ = {
+			isa = PBXGroup;
+			children = (
+				ABC2A85026C2B598008D10B9 /* Assets.xcassets */,
+				ABC2A84D26C2B597008D10B9 /* DO_MORE.xcdatamodeld */,
+				ABC2A85226C2B598008D10B9 /* LaunchScreen.storyboard */,
+				ABC2A84A26C2B597008D10B9 /* Main.storyboard */,
+			);
+			path = apputils;
+			sourceTree = "<group>";
+		};
+		ABC2A85C26C2B5FD008D10B9 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				ABC2A85D26C2B647008D10B9 /* HomeViewController.swift */,
+				ABC2A85E26C2B647008D10B9 /* HomeViewController.xib */,
+				ABC2A86126C2B8C4008D10B9 /* scrollViewController.swift */,
+				ABC2A86226C2B8C4008D10B9 /* scrollViewController.xib */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		ABC2A86526C2BC96008D10B9 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				ABC2A86626C2BCC3008D10B9 /* Item.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		ABC2A86826C2BD27008D10B9 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				ABC2A86926C2BD4D008D10B9 /* ItemCollectionViewCell.swift */,
+				ABC2A86A26C2BD4D008D10B9 /* ItemCollectionViewCell.xib */,
+			);
+			path = cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,9 +177,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABC2A86426C2B8C4008D10B9 /* scrollViewController.xib in Resources */,
 				ABC2A85426C2B598008D10B9 /* LaunchScreen.storyboard in Resources */,
 				ABC2A85126C2B598008D10B9 /* Assets.xcassets in Resources */,
+				ABC2A86C26C2BD4D008D10B9 /* ItemCollectionViewCell.xib in Resources */,
 				ABC2A84C26C2B597008D10B9 /* Main.storyboard in Resources */,
+				ABC2A86026C2B647008D10B9 /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,10 +193,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ABC2A84926C2B597008D10B9 /* ViewController.swift in Sources */,
 				ABC2A84F26C2B597008D10B9 /* DO_MORE.xcdatamodeld in Sources */,
 				ABC2A84526C2B597008D10B9 /* AppDelegate.swift in Sources */,
+				ABC2A86326C2B8C4008D10B9 /* scrollViewController.swift in Sources */,
 				ABC2A84726C2B597008D10B9 /* SceneDelegate.swift in Sources */,
+				ABC2A86726C2BCC3008D10B9 /* Item.swift in Sources */,
+				ABC2A85F26C2B647008D10B9 /* HomeViewController.swift in Sources */,
+				ABC2A86B26C2BD4D008D10B9 /* ItemCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
